@@ -1,0 +1,92 @@
+ body{
+     font-family:sans-serif ;
+     color:white;
+     background-image: url(bmw.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+h1{
+    
+    text-align: center;
+    background-color: rgb(38,38,38);
+    
+
+}
+.parent{
+    position: relative;
+    width:100%;
+    
+}
+.if1{
+    position: absolute;
+    top:10%;
+    left:27%;
+    height: 540px;
+    width: 43%;
+    
+    border: 1px solid white ;
+    background-color: transparent;
+    
+}
+
+.if2{
+    position: absolute;
+    top:10%;
+    right:0;
+    height: 540px;
+    width: 28%;
+    border: 1px solid white;
+
+   background-color :transparent;
+
+}
+#list{
+    
+    position:absolute;
+    
+    color:white;
+    
+    width: 25%; 
+    height:540px;
+    
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    overflow:hidden;
+    border:1px solid white;
+    
+    
+    
+}
+ul{
+    list-style-type: none;
+    margin:3%;
+    padding:0;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+
+ul li{
+    border:1px solid white;
+    padding: 2%;
+    margin:1%;
+}
+
+
+footer{
+    margin: 0;
+    text-align: center;
+    border:1px solid white;
+    left:5px;
+    right:5px;
+    height:3%;
+position: absolute;
+
+bottom: 0;
+
+}
+
