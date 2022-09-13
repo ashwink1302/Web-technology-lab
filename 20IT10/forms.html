@@ -4,40 +4,80 @@
     
     <title>Forms</title>
     <link rel="stylesheet" href="expstyle.css">
+    <style>
+        form *{
+            margin: 3%;
+            font-size:small;
+        }
+        label{
+           
+            padding: 2%;
+        }
+        #btn1{
+            background-color: purple;
+        }
+        #btn2{
+            background-color: green;
+        }
+        #btn1,#btn2{
+            border: 0;
+            padding: 2%;
+        }
+    </style>
 </head>
 <body>
-    <ul id="navbar">
-        <a href="desc.html#form" target="iframe2"><li>< form ></li></a>
-        <a href="desc.html#input" target="iframe2"><li>< input ></li></a>
-        <a href="desc.html#label" target="iframe2"><li>< label ></li></a>
-        
-    </ul>
-    <h1>Forms</h1>
-    <h3>An HTML form is used to collect user input. 
-        The user input is most often sent to a server for processing</h3>
-        <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname" ><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" >
-<p>Preferred mode of trasport</p>
-            <input type="radio" id="walk" name="transport" >
-            <label for="walk">Walk</label><br>
-            <input type="radio" id="bike"  name="transport" >
-            <label for="bike">Bike</label><br>
-            <input type="radio" id="car"  name="transport" >
-            <label for="car">Car</label>
-<br>
-<p>Choose if you can use multiple transport options</p>
-<input type="checkbox" id="bike1"  >
-<label for="bike1"> I can use bike</label>
-<input type="checkbox" id="car1"  >
-<label for="car1"> I can use car</label>
-<input type="checkbox" id="walk1"  >
-<label for="walk1"> I can walk</label><br><br>
-<input type="submit" value="Submit">
-
-
-          </form>
+    <h1>Project Management</h1>
+    <form>
+       
+            
+            
+          
+                   Project Name :
+               
+                   <input type="text" placeholder="Project Name" ><br>
+              
+                    Assignment :
+                
+                    <select >
+                        <option>ashwin</option>
+                        <option>keerthi</option>
+                        <option>kiruba</option>
+                        <option>ashwin</option>
+                        <option>harish</option>
+                    </select>
+               <br>
+                    Start date :
+              
+                    <input type="Date" placeholder="Date" >
+                    <br>
+                     End date :
+               
+                    <input type="Date" placeholder="Date" >
+                    <br>
+                priority :
+         
+                <input type="radio" id="high" name="priority"><label for="high">high</label>
+                <input type="radio" id="low" name="priority"><label for="low">low</label>
+                <input type="radio" id="avg"name="priority"><label for="avg">avg</label>
+                <br>
+                Description :
+           
+                <textarea rows="3" cols="30"> </textarea>
+            
+                <br>
+                    Project type :
+              
+                    <input type="checkbox" id="simple" >
+                    <label for="simple" >simple</label>
+                    <input type="checkbox"  id="stand alone"><label for="stand alone" >stand alone</label>
+                    <input type="checkbox"  id="web based"><label for="web based" >web based</label>
+                    <input type="checkbox"  id="mobile app"><label for="mobile app" >mobile app</label>
+                    <br>
+                    submit :
+                
+                    <input type="submit" id="btn1"  value="submit" >
+                    <input type="submit" id="btn2"  value="clear">
+       
+    </form>
 </body>
 </html>
